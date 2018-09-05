@@ -5,16 +5,32 @@
 	<title>CAT CLICKER</title>
 </head>
 <body>
-<p id="im"><img border="0" alt="cat" src="image.jpg" width="400" height="400"></p>
+<h1 id = "imName1"></h1>
+<p id="im1"><img border="0" alt="cat" src="image1.jpg" width="400" height="400"></p>
+<p id="c1"><p>
+<h1 id ="imName2"></h1>
+<p id="im2"><img border="0" alt="cat" src="image2.jpg" width="400" height="400"></p>
+<p id="c2"><p>
 <script type="text/javascript">
-	var elm =document.getElementById('im');
-	var count=0;
-	elm.addEventListener('click',function(){
-			count+=1;
-			document.getElementById("d").innerHTML = count;
+	var imName1="BAMBI";
+	var elm1 =document.getElementById('im1');
+	var c1=0;
+	elm1.addEventListener('click',function(){
+			c1+=1;
+			document.getElementById("c1").innerHTML = c1;
 	});
+			document.getElementById("imName1").innerHTML=imName1;
+	var imName2="PARSHI";
+	var elm2 =document.getElementById('im2');
+	var c2=0;
+	elm2.addEventListener('click',function(){
+			c2+=1;
+			document.getElementById("c2").innerHTML = c2;
+	});
+	document.getElementById("imName2").innerHTML=imName2;
+
 </script>
-<p id="d"><p>
+
 </body>
 </html>
 
