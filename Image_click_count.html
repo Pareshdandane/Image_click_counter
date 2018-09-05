@@ -1,0 +1,20 @@
+<!--image clicker-->
+<!DOCTYPE html>
+<html>		
+<head>
+	<title>CAT CLICKER</title>
+</head>
+<body>
+<p id="im"><img border="0" alt="cat" src="image.jpg" width="400" height="400"></p>
+<script type="text/javascript">
+	var elm =document.getElementById('im');
+	var count=0;
+	elm.addEventListener('click',function(){
+			count+=1;
+			document.getElementById("d").innerHTML = count;
+	});
+</script>
+<p id="d"><p>
+</body>
+</html>
+
